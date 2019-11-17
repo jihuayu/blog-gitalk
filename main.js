@@ -3,11 +3,11 @@ function load_github() {
   window.location.href= `https://github.com/login/oauth/authorize?client_id=40496946a2c62c5b2422&scope=user,public_repo&redirect_uri=${url}`;
 }
 let code = getQueryVariable('code');
-if (code){
-  axios.get(`https://github.com/login/oauth/access_token?client_id=40496946a2c62c5b2422&client_secret=2eead5d61f71d13a1afd1aee0375beb1c74a389f&code=${code}`).then((res)=>{
-    console.log(res);
-  })
-}
+// if (code){
+//   axios.get(`https://github.com/login/oauth/access_token?client_id=40496946a2c62c5b2422&client_secret=2eead5d61f71d13a1afd1aee0375beb1c74a389f&code=${code}`).then((res)=>{
+//     console.log(res);
+//   })
+// }
 
 function getQueryVariable(variable)
 {
