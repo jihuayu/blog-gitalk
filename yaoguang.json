@@ -1,7 +1,7 @@
 {
     "router":{
-        "/":{
-            "url":"/1.js",
+        "/:id":{
+            "url":"/{id}",
             "type":"raw"
         }
     }
