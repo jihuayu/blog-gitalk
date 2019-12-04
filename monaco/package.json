@@ -10,7 +10,7 @@
     "release": "gulp release",
     "website": "gulp website",
     "build-website": "gulp build-website"
-  },
+  },fffffff
   "typings": "./esm/vs/editor/editor.api.d.ts",
   "module": "./esm/vs/editor/editor.main.js",
   "repository": {
