@@ -31,3 +31,6 @@ echo "Partition $OLD_UUID changed to $PARTUUID"
 echo "You can reboot your PC!"
 
 fix_grub
+
+
+sssss
